@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani&display=swap');
+
+    body{
+        font-family: 'Biryani', sans-serif;
+        font-size: 16px;
+        background: #EDEFEB;
+        color: #000200;
+        width: 100%;
+        min-height: 100vh;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }   
+    main{
+        max-width: 1100px;
+        margin: 27px auto;
+        padding: 17px 10px;
+        background: #FEFFFC;
+        border: 1px solid #CACCC9;
+    }
+    .news{
+        display: grid;
+        gap: 10px;
+        margin-top: 24px;
+        margin-bottom: 20px;
+    }
+    main h1{
+        font-size: 32px;
+        margin-bottom: -14px;
+    }
+    main hr{
+        height: 1px;
+        border: none;
+        border-top: 0.5px dotted #832B5B;
+    }
+    .news-date{
+        display: inline-grid;
+        place-items: center;
+        width: 90px;
+        height: 23px;
+        background-color: #832B5B;
+        color: #FEFFFC;
+        font-size: 14px;
+        letter-spacing: 0.2em;
+    }
+    .news-title{
+        line-height: 1em;
+    }
+    .news-block {
+        letter-spacing: 0.05em;
+    }
+    .news-announce{
+        margin-top: 0px;
+        font-size: 0.9em;
+        line-height: 1.2em;
+    }
+    .pagination h3{
+        margin-bottom: -4px;
+        margin-top: 6px;
+    }
+    .page-number{
+        display: inline-flex;
+        text-decoration: none;
+        color: #434542;
+        background-color: #EDEFEB;
+        border: 1px solid #CACCC9;
+        width: 35.5px;
+        height: 18px;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+    #pages a:hover, a:active, a:target, .active{
+        color: #FEFFFC;
+        background-color: #832B5B;
+    }
+    
+    #pages {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0;
+        margin: 0;
+        gap:3px;
+    }
+    .news-full-text h1{
+        margin-bottom: -8px;
+    }
+    .news-content{
+        display: grid;
+        gap: 10px;
+        margin-top: 18px;
+        margin-bottom: 8px;
+    }
+    .news-content p{
+        line-height: 1.4em;
+    }
+    .back-to-newslist{
+        margin-top: 9px;
+        letter-spacing: 0.15em;
+    }
+    
